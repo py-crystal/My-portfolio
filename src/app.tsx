@@ -17,6 +17,7 @@ import Footer from "./components/footer";
 // App
 const App = () => {
   const [hide, setHide] = useState(true);
+  // console.log("this=================");
   
 
   return (
@@ -29,7 +30,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        <Tech />
+        {/* <Tech /> */}
         <Works />
         <Feedbacks />
 

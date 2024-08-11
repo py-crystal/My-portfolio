@@ -5,7 +5,7 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
+// import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 
 import CanvasLoader from "../loader";
@@ -50,16 +50,17 @@ type BallCanvasProps = {
 // Ball Canvas
 const BallCanvas = ({ icon }: BallCanvasProps) => {
   return (
-    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
-      {/* Show canvas loader on fallback */}
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
-        <Ball imgUrl={icon} />
-      </Suspense>
+    // <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
+    //   {/* Show canvas loader on fallback */}
+    //   <Suspense fallback={<CanvasLoader />}>
+    //     <OrbitControls enableZoom={false} />
+    //     <Ball imgUrl={icon} />
+    //   </Suspense>
 
-      {/* Preload all */}
-      <Preload all />
-    </Canvas>
+    //   {/* Preload all */}
+    //   <Preload all />
+    // </Canvas>
+    <></>
   );
 };
 

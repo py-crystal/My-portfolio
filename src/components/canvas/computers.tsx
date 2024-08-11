@@ -10,7 +10,7 @@ type ComputersProps = {
 
 // Computers
 const Computers = ({ isMobile }: ComputersProps) => {
-  console.log("----------------this is childere---------------")
+  // console.log("----------------this is ---------------")
   // Import scene
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
