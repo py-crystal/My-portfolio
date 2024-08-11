@@ -82,7 +82,7 @@ export const SERVICES = [
     icon: mobile,
   },
   {
-    title: "dApp Developer",
+    title: "Web3 Developer",
     icon: backend,
   },
   {
