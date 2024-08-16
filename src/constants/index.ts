@@ -270,16 +270,16 @@ export const PROJECTS = [
     live_site_link: "https://lunartoken.co/",
   },
   {
-    name: "Snippool",
+    name: "Genopets",
     description:
-      "Snippool.xyz is a platform focused on the intersection of Non-Fungible Tokens (NFTs) and decentralized finance (DeFi)",
+      "Genopets is a pioneering move-to-earn NFT game designed to gamify physical activity while providing players with a unique digital pet experience",
     tags: [
       {
-        name: "react.js",
+        name: "rust",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "react.js",
         color: "green-text-gradient",
       },
       {
@@ -289,7 +289,7 @@ export const PROJECTS = [
     ],
     image: project2,
     // source_code_link: "https://github.com/125heracles123/fitness-app",
-    live_site_link: "https://www.snippool.xyz/",
+    live_site_link: "https://www.genopets.me/",
   },
   {
     name: "Cyber-stadium",
